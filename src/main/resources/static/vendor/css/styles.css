@@ -1,0 +1,181 @@
+body{
+    font-family: "PT Sans", sans-serif;
+    background-color: #000022;
+}
+.container{
+    width: 800px;
+    margin: 10px auto;
+}
+.mainblock {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #000022;
+    background: rgba(255, 255, 255, 1);
+}
+
+.footer {
+    background-color: #262626;
+    color: white;
+    text-align: center;
+}
+.header {
+    background-color: #262626;
+    color: white;
+
+}
+
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+
+}
+
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 3px; /* Отступ слева */
+    border: 1px solid #38475f; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+    background-color: cadetblue;
+
+
+}
+
+
+A {
+    color: #00007b; /* Цвет обычной ссылки */
+}
+A:visited {
+    color: #000022; /* Цвет посещенной ссылки */
+}
+
+
+/*form fill*/
+
+.form-style-4{
+    align-content: center;
+    width: 450px;
+    font-size: 16px;
+   /* background: #495C70;*/
+    padding: 30px 30px 15px 30px;
+    /*border: 5px solid #53687E;*/
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+.form-style-4 label {
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-4 label > span{
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+.form-style-4 input[type=text],
+.form-style-4 input[type=email]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+.form-style-4 textarea{
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    overflow: hidden;
+    resize:none;
+    height:20px;
+}
+
+.form-style-4 textarea:focus,
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+    border-bottom: 1px dashed #83a4c5;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+    background: #262626;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #e5e5e3;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+    background: #161616;
+}
+
+
+/*Table*/
+.table_quiz {
+    align-content: center;
+    border-collapse: collapse;
+    border-left: 3px solid #161616;
+    border-right: 3px solid #161616;
+    border-bottom: 3px solid #161616;
+    font-family: "Lucida Grande", sans-serif;
+    width: 740px;
+    margin: 10px auto;
+
+}
+.table_quiz caption {
+    background: #262626;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    /*box-shadow: 0 2px  4px 0 rgba(246, 248, 235, 0.3);*/
+    color: white;
+    font-family: "Roboto Slab",serif;
+    font-style: normal;
+    font-size: 26px;
+    text-align: left;
+    margin: 0;
+}
+.table_quiz td, .table_price th {
+    padding: 10px;
+    max-width: 200px;
+}
+.table_quiz th {
+    text-align: left;
+    font-size: 18px;
+}
+.table_quiz tr:nth-child(2n) {
+    background: #e5e5e3;
+}
+.table_quiz td:last-of-type {
+    text-align: center;
+}
+.table_quiz a {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: bold;
+    position: relative;
+}
+.table_quiz a:hover {
+    box-shadow: none;
+    top: 2px;
+    left: 2px;
+}
+
+.deleteRow {
+    color: red;
+    cursor: pointer;
+}
